@@ -20,7 +20,7 @@ namespace DAL
 
     public class DataAccess
     {
-        public static string LoginDTO(NguoiDung nguoidung)
+        public static string LoginDTO(NguoiDungDTO nguoidung)
         {
             string user = null;
             SqlConnection conn = SqlConnectionData.Connect();

@@ -1,7 +1,60 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\DoAnC_Sharp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\workspace\\C#\\QuanLyPhongTro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|c:\\workspace\\c#\\quanlyphongtro\\dto\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\thietbidto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\dal\\nguoidungaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|solutionrelative:dal\\nguoidungaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\workspace\\C#\\QuanLyPhongTro\\gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +62,166 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NguoiDungAccess.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\DAL\\NguoiDungAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\NguoiDungAccess.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\DAL\\NguoiDungAccess.cs",
+              "RelativeToolTip": "DAL\\NguoiDungAccess.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAmwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:19:04.805Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ThietBiDTO.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\DTO\\ThietBiDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ThietBiDTO.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\DTO\\ThietBiDTO.cs",
+              "RelativeToolTip": "DTO\\ThietBiDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:32:21.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDungBLL.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\BLL\\NguoiDungBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NguoiDungBLL.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\BLL\\NguoiDungBLL.cs",
+              "RelativeToolTip": "BLL\\NguoiDungBLL.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:20:26.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmDoiMatKhau.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDoiMatKhau.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDoiMatKhau.cs",
+              "RelativeToolTip": "GUI\\frmDoiMatKhau.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwv0oAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:30:12.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDoiMatKhau.cs [Design]",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDoiMatKhau.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDoiMatKhau.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDoiMatKhau.cs [Design]",
+              "RelativeToolTip": "GUI\\frmDoiMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:23:59.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmManHinhChinh.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmManHinhChinh.cs",
+              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmManHinhChinh.cs",
+              "RelativeToolTip": "GUI\\frmManHinhChinh.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwBkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:22:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmManHinhChinh.cs [Design]",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmManHinhChinh.cs",
+              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmManHinhChinh.cs [Design]",
+              "RelativeToolTip": "GUI\\frmManHinhChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:20:58.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\Properties\\Resources.resx",
+              "RelativeToolTip": "GUI\\Properties\\Resources.resx",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAkwHoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-04T05:19:10.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\Program.cs",
+              "RelativeDocumentMoniker": "GUI\\Program.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\Program.cs",
+              "RelativeToolTip": "GUI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T05:18:48.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDangNhap.cs",
+              "RelativeToolTip": "GUI\\frmDangNhap.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:17:14.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\DAL\\DataAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\DAL\\DataAccess.cs",
+              "RelativeToolTip": "DAL\\DataAccess.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:07:57.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NguoiDungDTO.cs",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\DTO\\NguoiDungDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\NguoiDungDTO.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\DTO\\NguoiDungDTO.cs",
+              "RelativeToolTip": "DTO\\NguoiDungDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:04:12.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
+              "ToolTip": "C:\\workspace\\C#\\QuanLyPhongTro\\GUI\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T03:02:16.357Z"
             }
           ]
         }
