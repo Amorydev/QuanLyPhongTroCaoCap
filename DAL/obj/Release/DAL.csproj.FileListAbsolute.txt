@@ -1,0 +1,9 @@
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Release\DAL.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Release\DAL.pdb
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Release\DTO.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Release\DTO.pdb
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Release\DAL.csproj.AssemblyReference.cache
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Release\DAL.csproj.Up2Date
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Release\DAL.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Release\DAL.pdb

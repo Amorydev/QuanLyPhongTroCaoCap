@@ -1,0 +1,9 @@
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Debug\DAL.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Debug\DAL.pdb
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Debug\DTO.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\bin\Debug\DTO.pdb
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.dll
+C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.pdb

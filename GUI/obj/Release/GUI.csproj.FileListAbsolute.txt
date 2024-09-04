@@ -1,0 +1,4 @@
+C:\workspace\C#\QuanLyPhongTro\GUI\obj\Release\GUI.csproj.AssemblyReference.cache
+C:\workspace\C#\QuanLyPhongTro\GUI\obj\Release\GUI.frmDangNhap.resources
+C:\workspace\C#\QuanLyPhongTro\GUI\obj\Release\GUI.frmManHinhChinh.resources
+C:\workspace\C#\QuanLyPhongTro\GUI\obj\Release\GUI.csproj.GenerateResource.cache
