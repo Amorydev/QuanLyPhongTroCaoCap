@@ -15,6 +15,8 @@ namespace BLL
         {
             string strquery = "SELECT * FROM Phong";
             return dataProvider.GetDataTable(strquery);
+
+            
         }
 
         public void AddPhong(PhongDTO phongDTO)
