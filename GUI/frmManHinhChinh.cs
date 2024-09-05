@@ -36,5 +36,12 @@ namespace GUI
             frmDoiMatKhau frmDoiMatKhau = new frmDoiMatKhau();
             frmDoiMatKhau.Show();
         }
+
+        private void phòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPhong frmPhong = new frmPhong();
+            frmPhong.Show();
+            this.Close();
+        }
     }
 }

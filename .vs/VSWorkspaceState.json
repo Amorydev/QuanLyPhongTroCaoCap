@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DAL",
+    "\\GUI"
   ],
-  "SelectedNode": "\\QuanLyPhongTro.sln",
+  "SelectedNode": "\\DAL\\DataProvider.cs",
   "PreviewInSolutionExplorer": false
 }

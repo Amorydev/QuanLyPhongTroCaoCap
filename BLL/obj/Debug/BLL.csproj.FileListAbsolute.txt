@@ -9,3 +9,14 @@ C:\workspace\C#\QuanLyPhongTro\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\workspace\C#\QuanLyPhongTro\BLL\obj\Debug\BLL.csproj.Up2Date
 C:\workspace\C#\QuanLyPhongTro\BLL\obj\Debug\BLL.dll
 C:\workspace\C#\QuanLyPhongTro\BLL\obj\Debug\BLL.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\BLL.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\BLL.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\DAL.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\DTO.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\DAL.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\bin\Debug\DTO.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\obj\Debug\BLL.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\BLL\obj\Debug\BLL.pdb
