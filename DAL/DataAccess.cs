@@ -12,7 +12,7 @@ namespace DAL
     {
         public static SqlConnection Connect()
         {
-            string strcon = @"Data Source=HP;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+            string strcon = @"Data Source=THUAN\THUAN;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True";
             SqlConnection con = new SqlConnection(strcon);
             return con;
         }
