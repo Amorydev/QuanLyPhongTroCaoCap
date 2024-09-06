@@ -20,10 +20,10 @@ namespace GUI
 
         private void lblThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
-            BLL.Session.CurrentUser = null;
-            frmDangNhap frmDangNhap = new frmDangNhap();
-            frmDangNhap.Show();
+            if (MessageBox.Show("Bạn có muốn đóng ứng dụng không?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
         }
 
         private void lblXinChao_Click(object sender, EventArgs e)
@@ -33,8 +33,30 @@ namespace GUI
 
         private void lblDoiMatKhau_Click(object sender, EventArgs e)
         {
+        }
+
+        private void frmManHinhChinh_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đổiMậtKhẩuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
             frmDoiMatKhau frmDoiMatKhau = new frmDoiMatKhau();
-            frmDoiMatKhau.Show();
+            frmDoiMatKhau.ShowDialog();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có muốn đăng xuất không?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                BLL.Session.CurrentUser = null;
+                frmDangNhap frmDangNhap = new frmDangNhap();
+                frmDangNhap.ShowDialog();
+                this.Close();
+            }
         }
     }
 }

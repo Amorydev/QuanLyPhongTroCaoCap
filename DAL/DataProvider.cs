@@ -30,7 +30,7 @@ namespace DAL
                 throw ex;
             }
         }
-        //XD ham do du lieu DataTAble
+        //XD ham do du lieu DataTable
         public DataTable GetDataTable(string strquery)
         {
             Connected();
@@ -55,6 +55,7 @@ namespace DAL
             int check = 0;
             try
             {
+                Connected();
                 if (sqlconn.State == ConnectionState.Closed)
                 {
                     sqlconn.Open();
