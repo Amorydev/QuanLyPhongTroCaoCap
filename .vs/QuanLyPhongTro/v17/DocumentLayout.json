@@ -1,58 +1,56 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\",
+
+  "WorkspaceRootPath": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|d:\\source code visual studio\\source\\repos\\da mon csharp\\quanlyphongtrocaocap\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|c:\\users\\amory\\quanlyphongtrocaocap\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmdoimatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\bll\\phongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\phongbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\nguoidungdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\gui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\dto\\phongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\phongdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\khachhangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\dto\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\khachhangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmmanhinhchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\properties\\resources.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\gui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\gui\\frmphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C51CE353-87AD-4653-998D-918B178B8475}|GUI\\GUI.csproj|solutionrelative:gui\\frmphong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\nguoidungbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\dal\\nguoidungaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3CD58E6-CB64-4D22-8C3E-E91EC25D1767}|DAL\\DAL.csproj|solutionrelative:dal\\nguoidungaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\bll\\tangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6126E0E6-80A5-4F97-945E-9CB944D7AFB6}|BLL\\BLL.csproj|solutionrelative:bll\\tangbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\dto\\tangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\tangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+
     }
   ],
   "DocumentGroupContainers": [
@@ -62,14 +60,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 16,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
+
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+
               "Name": "ST:1285158110:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
@@ -82,162 +90,166 @@
             },
             {
               "$type": "Bookmark",
+
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+
+              "Title": "PhongDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\PhongDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\PhongDTO.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\PhongDTO.cs",
+              "RelativeToolTip": "DTO\\PhongDTO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA/wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:06:18.281Z"
+
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+
+              "Title": "frmManHinhChinh.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
+              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
+              "RelativeToolTip": "GUI\\frmManHinhChinh.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAkwCsAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:04:05.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmManHinhChinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
+              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs [Design]",
+              "RelativeToolTip": "GUI\\frmManHinhChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:04:01.903Z"
+
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+
+              "Title": "NguoiDungBLL.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\NguoiDungBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\NguoiDungBLL.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\NguoiDungBLL.cs",
+              "RelativeToolTip": "BLL\\NguoiDungBLL.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:56:41.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NguoiDungAccess.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DAL\\NguoiDungAccess.cs",
+              "RelativeDocumentMoniker": "DAL\\NguoiDungAccess.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DAL\\NguoiDungAccess.cs",
+              "RelativeToolTip": "DAL\\NguoiDungAccess.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:56:37.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhongBLL.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\PhongBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\PhongBLL.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\PhongBLL.cs",
+              "RelativeToolTip": "BLL\\PhongBLL.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAswJ8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:11:36.137Z"
+
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+
+              "Title": "TangBLL.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\TangBLL.cs",
+              "RelativeDocumentMoniker": "BLL\\TangBLL.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\TangBLL.cs",
+              "RelativeToolTip": "BLL\\TangBLL.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T11:31:06.017Z"
+
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+
+              "Title": "TangDTO.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\TangDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\TangDTO.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\TangDTO.cs",
+              "RelativeToolTip": "DTO\\TangDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T11:43:33.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPhong.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.cs",
+              "RelativeDocumentMoniker": "GUI\\frmPhong.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.cs",
+              "RelativeToolTip": "GUI\\frmPhong.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAgwFUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:28:17.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DAL\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DAL\\DataProvider.cs",
+              "RelativeToolTip": "DAL\\DataProvider.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAwwDcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:15:36.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "frmDoiMatKhau.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDoiMatKhau.cs",
-              "RelativeDocumentMoniker": "GUI\\frmDoiMatKhau.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDoiMatKhau.cs",
-              "RelativeToolTip": "GUI\\frmDoiMatKhau.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAawEcAAABFAAAA",
+              "Title": "frmPhong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\frmPhong.Designer.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.Designer.cs",
+              "RelativeToolTip": "GUI\\frmPhong.Designer.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAD4v3EAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T07:57:58.332Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmDoiMatKhau.cs [Design]",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDoiMatKhau.cs",
-              "RelativeDocumentMoniker": "GUI\\frmDoiMatKhau.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDoiMatKhau.cs [Design]",
-              "RelativeToolTip": "GUI\\frmDoiMatKhau.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T07:57:53.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmManHinhChinh.cs [Design]",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
-              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs [Design]",
-              "RelativeToolTip": "GUI\\frmManHinhChinh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T07:07:36.003Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmManHinhChinh.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
-              "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
-              "RelativeToolTip": "GUI\\frmManHinhChinh.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAvwCwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:59:55.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmDangNhap.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDangNhap.cs",
-              "RelativeToolTip": "GUI\\frmDangNhap.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAgwCsAAAB3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:56:19.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmDangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\frmDangNhap.cs [Design]",
-              "RelativeToolTip": "GUI\\frmDangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:56:13.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NguoiDungBLL.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\BLL\\NguoiDungBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\NguoiDungBLL.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\BLL\\NguoiDungBLL.cs",
-              "RelativeToolTip": "BLL\\NguoiDungBLL.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAvwB0AAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:35:05.473Z"
+              "WhenOpened": "2024-09-04T09:56:29.239Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "DataProvider.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DAL\\DataProvider.cs",
-              "RelativeDocumentMoniker": "DAL\\DataProvider.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DAL\\DataProvider.cs",
-              "RelativeToolTip": "DAL\\DataProvider.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAQwDgAAAANAAAA",
+              "Title": "frmPhong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.cs",
+              "RelativeDocumentMoniker": "GUI\\frmPhong.cs",
+              "ToolTip": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmPhong.cs [Design]",
+              "RelativeToolTip": "GUI\\frmPhong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:48:58.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NguoiDungDTO.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DTO\\NguoiDungDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\NguoiDungDTO.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DTO\\NguoiDungDTO.cs",
-              "RelativeToolTip": "DTO\\NguoiDungDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T06:32:15.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KhachHangBLL.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\BLL\\KhachHangBLL.cs",
-              "RelativeDocumentMoniker": "BLL\\KhachHangBLL.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\BLL\\KhachHangBLL.cs",
-              "RelativeToolTip": "BLL\\KhachHangBLL.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIA9wEQAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T10:03:04.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "KhachHangDTO.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DTO\\KhachHangDTO.cs",
-              "RelativeDocumentMoniker": "DTO\\KhachHangDTO.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\DTO\\KhachHangDTO.cs",
-              "RelativeToolTip": "DTO\\KhachHangDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T09:55:02.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "GUI\\Properties\\Resources.resx",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\Properties\\Resources.resx",
-              "RelativeToolTip": "GUI\\Properties\\Resources.resx",
-              "ViewState": "AQIAAHAAAAAAAAAAAAAkwHoAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-09-04T05:19:10.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\Program.cs",
-              "RelativeDocumentMoniker": "GUI\\Program.cs",
-              "ToolTip": "D:\\Source Code Visual Studio\\source\\repos\\DA mon CSharp\\QuanLyPhongTroCaoCap\\GUI\\Program.cs",
-              "RelativeToolTip": "GUI\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T05:18:48.276Z"
+              "WhenOpened": "2024-09-04T09:36:32.784Z"
+
             }
           ]
         }

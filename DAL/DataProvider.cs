@@ -5,7 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using DTO;
+
 
 namespace DAL
 {
@@ -17,7 +19,9 @@ namespace DAL
         // XD ham ket noi du lieu
         private void Connected()
         {
-            string strconn = "Data Source=THUAN\\THUAN;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True";
+
+            string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+
             try
             {
                 if (sqlconn == null)
@@ -30,7 +34,6 @@ namespace DAL
                 throw ex;
             }
         }
-        //XD ham do du lieu DataTable
         public DataTable GetDataTable(string strquery)
         {
             Connected();
@@ -50,6 +53,7 @@ namespace DAL
         }
 
         //XD ham chay query
+
         public bool RunQuery(string strquery)
         {
             int check = 0;
@@ -77,7 +81,20 @@ namespace DAL
                 return true;
 
             return false;
+
+        /* public bool RunQuery(string strquery, params SqlParameter[] parameters)
+        {
+            using (var cmd = new SqlCommand(strquery, sqlconn))
+            {
+                cmd.Parameters.AddRange(parameters);
+                sqlconn.Open();
+                int check = cmd.ExecuteNonQuery();
+                sqlconn.Close();
+                return check > 0;
+            }
+
         }
+        */
         public bool CheckField(string TableName, string FieldName, string value)
         {
             string strquery = "select * from " + TableName + " where " + FieldName + "='" + value + "'";
