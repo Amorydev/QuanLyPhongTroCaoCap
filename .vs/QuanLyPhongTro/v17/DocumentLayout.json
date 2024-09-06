@@ -1,5 +1,6 @@
 {
   "Version": 1,
+
   "WorkspaceRootPath": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\",
   "Documents": [
     {
@@ -49,6 +50,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|C:\\Users\\amory\\QuanLyPhongTroCaoCap\\dto\\tangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41C41600-EFB3-45C0-8C7E-E8F21A95FD82}|DTO\\DTO.csproj|solutionrelative:dto\\tangdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+
     }
   ],
   "DocumentGroupContainers": [
@@ -70,10 +72,12 @@
             },
             {
               "$type": "Bookmark",
+
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
+
               "Name": "ST:1285158110:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
@@ -86,11 +90,14 @@
             },
             {
               "$type": "Bookmark",
+
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+
               "Title": "PhongDTO.cs",
               "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\PhongDTO.cs",
               "RelativeDocumentMoniker": "DTO\\PhongDTO.cs",
@@ -99,10 +106,12 @@
               "ViewState": "AQIAABAAAAAAAAAAAAA/wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:06:18.281Z"
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+
               "Title": "frmManHinhChinh.cs",
               "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\GUI\\frmManHinhChinh.cs",
               "RelativeDocumentMoniker": "GUI\\frmManHinhChinh.cs",
@@ -122,10 +131,12 @@
               "RelativeToolTip": "GUI\\frmManHinhChinh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T08:04:01.903Z"
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+
               "Title": "NguoiDungBLL.cs",
               "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\NguoiDungBLL.cs",
               "RelativeDocumentMoniker": "BLL\\NguoiDungBLL.cs",
@@ -158,10 +169,12 @@
               "ViewState": "AQIAAFEAAAAAAAAAAAAswJ8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T07:11:36.137Z"
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+
               "Title": "TangBLL.cs",
               "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\BLL\\TangBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TangBLL.cs",
@@ -170,10 +183,12 @@
               "ViewState": "AQIAAAcAAAAAAAAAAAAwwBIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T11:31:06.017Z"
+
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+
               "Title": "TangDTO.cs",
               "DocumentMoniker": "C:\\Users\\amory\\QuanLyPhongTroCaoCap\\DTO\\TangDTO.cs",
               "RelativeDocumentMoniker": "DTO\\TangDTO.cs",
@@ -234,6 +249,7 @@
               "RelativeToolTip": "GUI\\frmPhong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T09:36:32.784Z"
+
             }
           ]
         }

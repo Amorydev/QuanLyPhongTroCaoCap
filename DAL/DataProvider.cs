@@ -6,6 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using DTO;
+
+
 namespace DAL
 {
     public class DataProvider
@@ -16,7 +19,9 @@ namespace DAL
         // XD ham ket noi du lieu
         private void Connected()
         {
+
             string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+
             try
             {
                 if (sqlconn == null)
@@ -29,7 +34,6 @@ namespace DAL
                 throw ex;
             }
         }
-        //XD ham do du lieu DataTAble
         public DataTable GetDataTable(string strquery)
         {
             Connected();
@@ -49,7 +53,36 @@ namespace DAL
         }
 
         //XD ham chay query
-        public bool RunQuery(string strquery, params SqlParameter[] parameters)
+
+        public bool RunQuery(string strquery)
+        {
+            int check = 0;
+            try
+            {
+                Connected();
+                if (sqlconn.State == ConnectionState.Closed)
+                {
+                    sqlconn.Open();
+                }
+
+                SqlCommand cmd = new SqlCommand(strquery, sqlconn);
+                check = cmd.ExecuteNonQuery();
+
+                if (sqlconn.State == ConnectionState.Open)
+                {
+                    sqlconn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            if (check > 0)
+                return true;
+
+            return false;
+
+        /* public bool RunQuery(string strquery, params SqlParameter[] parameters)
         {
             using (var cmd = new SqlCommand(strquery, sqlconn))
             {
@@ -59,7 +92,9 @@ namespace DAL
                 sqlconn.Close();
                 return check > 0;
             }
+
         }
+        */
         public bool CheckField(string TableName, string FieldName, string value)
         {
             string strquery = "select * from " + TableName + " where " + FieldName + "='" + value + "'";

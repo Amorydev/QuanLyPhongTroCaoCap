@@ -38,26 +38,30 @@ namespace GUI
             nguoidung.TaiKhoan = txtTaiKhoan.Text;
             nguoidung.MatKhau = txtMatKhau.Text;
 
-            string user = ndBLL.Login(nguoidung);
-            
-            if (user != null)
+
+            if (ndBLL.Login(nguoidung) == true)
             {
                 MessageBox.Show("Đăng nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                BLL.Session.CurrentUser = user;
                 this.Hide();
                 frmManHinhChinh frmManHinhChinh = new frmManHinhChinh();
-                frmManHinhChinh.Show();
+                frmManHinhChinh.ShowDialog();
+                this.Close();
             }
             else
             {
                 MessageBox.Show("Tài khoản hoặc mật khẩu không chính xác", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
-            BLL.Session.CurrentUser = null;
+            if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Session.CurrentUser = null;
+                Application.Exit();
+            }
+            
         }
 
         private void txtMatKhau_TextChanged(object sender, EventArgs e)

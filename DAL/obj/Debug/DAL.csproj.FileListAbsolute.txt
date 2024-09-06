@@ -7,6 +7,17 @@ C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.dll
 C:\workspace\C#\QuanLyPhongTro\DAL\obj\Debug\DAL.pdb
+<<<<<<< HEAD
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\bin\Debug\DAL.dll
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\bin\Debug\DAL.pdb
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\bin\Debug\DTO.dll
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\bin\Debug\DTO.pdb
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.dll
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.pdb
+=======
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\bin\Debug\DAL.dll
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\bin\Debug\DAL.pdb
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\bin\Debug\DTO.dll
@@ -16,3 +27,4 @@ C:\Users\amory\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.c
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.dll
 C:\Users\amory\QuanLyPhongTroCaoCap\DAL\obj\Debug\DAL.pdb
+>>>>>>> main

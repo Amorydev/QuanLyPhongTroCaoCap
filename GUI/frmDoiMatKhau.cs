@@ -67,9 +67,9 @@ namespace GUI
                 MessageBox.Show("Mật khẩu mới và nhập lại mật khẩu mới không khớp.");
                 return;
             }
-            bool doiMatKhauThanhCong = ndBLL.ChangePassword(taiKhoan, matKhauCu, matKhauMoi);
+            //bool doiMatKhauThanhCong = ndBLL.ChangePassword(taiKhoan, matKhauCu, matKhauMoi);
 
-            if (doiMatKhauThanhCong)
+            if (ndBLL.ChangePassword(taiKhoan, matKhauCu, matKhauMoi))
             {
                 MessageBox.Show("Đổi mật khẩu thành công!");
                 this.Hide();
@@ -82,7 +82,16 @@ namespace GUI
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            this.Close();
+            if (MessageBox.Show("Bạn có muốn thoát không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void frmDoiMatKhau_Load(object sender, EventArgs e)
+        {
+            txtTaiKhoan.Text = Session.CurrentUser;
+            txtTaiKhoan.Enabled = false;
         }
     }
 }
