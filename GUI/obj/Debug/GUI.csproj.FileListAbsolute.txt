@@ -37,3 +37,24 @@ D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\GUI
 D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.exe
 D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.pdb
 D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmKhachHang.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmDangNhap.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmDoiMatKhau.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmKhachHang.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmManHinhChinh.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmPhong.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.exe
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\GUI.exe.config
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\GUI.exe
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\GUI.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\BLL.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DTO.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DAL.dll
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\BLL.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DTO.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DAL.pdb
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.csproj.Up2Date

@@ -15,5 +15,6 @@ namespace DTO
         public float GiaPhong {  get; set; }
         public string NoiThat {  get; set; }
         public string MaTang { get; set; }
+
     }
 }

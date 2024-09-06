@@ -65,5 +65,12 @@ namespace GUI
             frmPhong.Show();
             this.Close();
         }
+
+        private void quảnLýPhòngToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmPhong frmPhong = new frmPhong();
+            frmPhong.Show();
+            this.Close();
+        }
     }
 }

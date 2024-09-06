@@ -33,14 +33,14 @@ namespace BLL
                 new SqlParameter("@TrangThai", phongDTO.TrangThai)
             };
 
-            if (dataProvider.RunQuery(sqlquery, parameters))
+          /*  if (dataProvider.RunQuery(sqlquery, parameters))
             {
                 MessageBox.Show("Thêm thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi thêm phòng", "Thông báo lỗi");
-            }
+            }*/
         }
 
         public void UpdatePhong(PhongDTO pb)
@@ -66,14 +66,14 @@ namespace BLL
                 new SqlParameter("@MaPhong", pb.MaPhong)
             };
 
-            if (dataProvider.RunQuery(strquery, parameters))
+           /* if (dataProvider.RunQuery(strquery, parameters))
             {
                 MessageBox.Show("Cập nhật thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi cập nhật phòng", "Thông báo lỗi");
-            }
+            }*/
         }
 
         public void DeletePhongban(PhongDTO pb)
@@ -85,14 +85,14 @@ namespace BLL
                 string strquery = "DELETE FROM Phong WHERE MaPhong = @MaPhong";
                 var parameter = new SqlParameter("@MaPhong", pb.MaPhong);
 
-                if (dataProvider.RunQuery(strquery, parameter))
+               /* if (dataProvider.RunQuery(strquery, parameter))
                 {
                     MessageBox.Show("Xóa phòng thành công", "Thông báo");
                 }
                 else
                 {
                     MessageBox.Show("Lỗi khi xóa phòng", "Thông báo lỗi");
-                }
+                }*/
             }
         }
 

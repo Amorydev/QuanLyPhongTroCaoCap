@@ -5,7 +5,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using DTO;
 
 
@@ -81,27 +80,29 @@ namespace DAL
                 return true;
 
             return false;
+        
 
-        /* public bool RunQuery(string strquery, params SqlParameter[] parameters)
-        {
-            using (var cmd = new SqlCommand(strquery, sqlconn))
+            /* public bool RunQuery(string strquery, params SqlParameter[] parameters)
             {
-                cmd.Parameters.AddRange(parameters);
-                sqlconn.Open();
-                int check = cmd.ExecuteNonQuery();
-                sqlconn.Close();
-                return check > 0;
-            }
+                using (var cmd = new SqlCommand(strquery, sqlconn))
+                {
+                    cmd.Parameters.AddRange(parameters);
+                    sqlconn.Open();
+                    int check = cmd.ExecuteNonQuery();
+                    sqlconn.Close();
+                    return check > 0;
+                }
 
+            }
+            */
         }
-        */
-        public bool CheckField(string TableName, string FieldName, string value)
-        {
-            string strquery = "select * from " + TableName + " where " + FieldName + "='" + value + "'";
-            GetDataTable(strquery);
-            if (dt.Rows.Count > 0)
-                return true;
-            return false;
+            public bool CheckField(string TableName, string FieldName, string value)
+            {
+                string strquery = "select * from " + TableName + " where " + FieldName + "='" + value + "'";
+                GetDataTable(strquery);
+                if (dt.Rows.Count > 0)
+                    return true;
+                return false;
+            }
         }
     }
-}
