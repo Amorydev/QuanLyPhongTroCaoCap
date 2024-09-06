@@ -12,7 +12,11 @@ namespace DAL
     {
         public static SqlConnection Connect()
         {
+<<<<<<< HEAD
             string strcon = @"Data Source=THUAN\THUAN;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True";
+=======
+            string strcon = @"Data Source=DESKTOP-2M3CSSN\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+>>>>>>> 0305310ae21310968884c9c6e5d19b3ca8789671
             SqlConnection con = new SqlConnection(strcon);
             return con;
         }
