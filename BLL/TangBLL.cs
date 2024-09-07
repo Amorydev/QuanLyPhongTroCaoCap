@@ -14,7 +14,7 @@ namespace BLL
     {
         private DataProvider dataProvider = new DataProvider();
 
-        public List<TangDTO> layMaTang()
+        public List<TangDTO> GetMaTang()
         {
             List<TangDTO> maTangList = new List<TangDTO>();
             string query = "SELECT MaTang, TenTang FROM Tang"; 

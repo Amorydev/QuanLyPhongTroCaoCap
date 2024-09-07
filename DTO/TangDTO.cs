@@ -10,5 +10,15 @@ namespace DTO
     {
         public string MaTang { get; set; }
         public string TenTang { get; set; }
+
+        public TangDTO()
+        {
+        }
+        public TangDTO(string maTang, string tenTang)
+        {
+            this.MaTang = maTang;
+            this.TenTang = tenTang;
+        }
     }
+
 }

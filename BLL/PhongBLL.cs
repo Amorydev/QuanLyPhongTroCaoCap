@@ -9,71 +9,46 @@ namespace BLL
 {
     public class PhongBLL
     {
-        private readonly DataProvider dataProvider = new DataProvider();
+        private readonly DataProvider dp = new DataProvider();
 
         public DataTable GetDataPhong()
         {
             string strquery = "SELECT * FROM Phong";
-            return dataProvider.GetDataTable(strquery);
+            return dp.GetDataTable(strquery);
         }
 
+        public DataTable GetDataPhongTheoTang(string maTang)
+        {
+            string strquery = $"SELECT * FROM Phong WHERE MaTang = '{maTang}'";
+            return dp.GetDataTable(strquery);
+
+        }
         public void AddPhong(PhongDTO phongDTO)
         {
-            string sqlquery = @"INSERT INTO Phong (MaPhong, TenPhong, LoaiPhong, GiaPhong, NoiThat, MaTang, TrangThai)
-                                VALUES (@MaPhong, @TenPhong, @LoaiPhong, @GiaPhong, @NoiThat, @MaTang, @TrangThai)";
-
-            var parameters = new[]
-            {
-                new SqlParameter("@MaPhong", phongDTO.MaPhong),
-                new SqlParameter("@TenPhong", phongDTO.TenPhong),
-                new SqlParameter("@LoaiPhong", phongDTO.LoaiPhong),
-                new SqlParameter("@GiaPhong", phongDTO.GiaPhong),
-                new SqlParameter("@NoiThat", phongDTO.NoiThat),
-                new SqlParameter("@MaTang", phongDTO.MaTang),
-                new SqlParameter("@TrangThai", phongDTO.TrangThai)
-            };
-
-          /*  if (dataProvider.RunQuery(sqlquery, parameters))
+            string sqlquery = $"INSERT INTO Phong VALUES ('{phongDTO.MaPhong}', N'{phongDTO.TenPhong}', N'{phongDTO.TrangThai}', N'{phongDTO.LoaiPhong}', '{phongDTO.GiaPhong}', N'{phongDTO.NoiThat}', '{phongDTO.MaTang}')";
+            if (dp.RunQuery(sqlquery))
             {
                 MessageBox.Show("Thêm thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi thêm phòng", "Thông báo lỗi");
-            }*/
+            }
+
         }
 
         public void UpdatePhong(PhongDTO pb)
         {
-            string strquery = @"UPDATE Phong SET 
-                                TenPhong = @TenPhong, 
-                                TrangThai = @TrangThai, 
-                                LoaiPhong = @LoaiPhong, 
-                                GiaPhong = @GiaPhong, 
-                                NoiThat = @NoiThat, 
-                                MaTang = @MaTang 
-                                WHERE 
-                                MaPhong = @MaPhong";
-
-            var parameters = new[]
-            {
-                new SqlParameter("@TenPhong", pb.TenPhong),
-                new SqlParameter("@TrangThai", pb.TrangThai),
-                new SqlParameter("@LoaiPhong", pb.LoaiPhong),
-                new SqlParameter("@GiaPhong", pb.GiaPhong),
-                new SqlParameter("@NoiThat", pb.NoiThat),
-                new SqlParameter("@MaTang", pb.MaTang),
-                new SqlParameter("@MaPhong", pb.MaPhong)
-            };
-
-           /* if (dataProvider.RunQuery(strquery, parameters))
+            string strquery = $"UPDATE Phong SET TenPhong = N'{pb.TenPhong}', TrangThai = N'{pb.TrangThai}', LoaiPhong = N'{pb.LoaiPhong}', GiaPhong = '{pb.GiaPhong}', NoiThat = N'{pb.NoiThat}', MaTang = '{pb.MaTang}' WHERE MaPhong = '{pb.MaPhong}'";
+            if (dp.RunQuery(strquery))
             {
                 MessageBox.Show("Cập nhật thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi cập nhật phòng", "Thông báo lỗi");
-            }*/
+            }
+
         }
 
         public void DeletePhongban(PhongDTO pb)
@@ -82,23 +57,21 @@ namespace BLL
 
             if (result == DialogResult.Yes)
             {
-                string strquery = "DELETE FROM Phong WHERE MaPhong = @MaPhong";
-                var parameter = new SqlParameter("@MaPhong", pb.MaPhong);
-
-               /* if (dataProvider.RunQuery(strquery, parameter))
-                {
-                    MessageBox.Show("Xóa phòng thành công", "Thông báo");
+                string strquery = $"DELETE FROM Phong WHERE MaPhong = '{pb.MaPhong}'";
+               if (dp.RunQuery(strquery)) 
+               {
+                    MessageBox.Show("Xóa thành công", "Thông báo");
                 }
                 else
                 {
-                    MessageBox.Show("Lỗi khi xóa phòng", "Thông báo lỗi");
-                }*/
+                     MessageBox.Show("Lỗi khi xóa phòng", "Thông báo lỗi");
+               }
             }
         }
 
         public bool CheckFieldData(string map)
         {
-            return dataProvider.CheckField("Phong", "MaPhong", map);
+            return dp.CheckField("Phong", "MaPhong", map);
         }
 
         public bool CheckSave(PhongDTO pb)
@@ -122,39 +95,11 @@ namespace BLL
             return true;
         }
 
-        public PhongDTO GetPhongByMaPhong(string maPhong)
+
+        public DataTable GetDataPhongByTang(string maTang)
         {
-            PhongDTO phongDTO = null;
-
-            string query = "SELECT * FROM Phong WHERE MaPhong = @MaPhong";
-            var parameter = new SqlParameter("@MaPhong", maPhong);
-
-            using (var connection = new SqlConnection("Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False"))
-            {
-                using (var command = new SqlCommand(query, connection))
-                {
-                    command.Parameters.Add(parameter);
-                    connection.Open();
-                    using (var reader = command.ExecuteReader())
-                    {
-                        if (reader.Read())
-                        {
-                            phongDTO = new PhongDTO
-                            {
-                                MaPhong = reader["MaPhong"].ToString(),
-                                TenPhong = reader["TenPhong"].ToString(),
-                                LoaiPhong = reader["LoaiPhong"].ToString(),
-                                GiaPhong = Convert.ToSingle(reader["GiaPhong"]),
-                                NoiThat = reader["NoiThat"].ToString(),
-                                MaTang = reader["MaTang"].ToString(),
-                                TrangThai = reader["TrangThai"].ToString()
-                            };
-                        }
-                    }
-                }
-            }
-
-            return phongDTO;
+            string strquery = $"SELECT * FROM Phong WHERE MaTang = '{maTang}'";
+            return dp.GetDataTable(strquery);
         }
     }
 }
