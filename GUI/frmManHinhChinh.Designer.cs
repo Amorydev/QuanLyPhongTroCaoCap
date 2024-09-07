@@ -134,14 +134,14 @@
             // 
             this.phòngToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.phòngToolStripMenuItem.Name = "phòngToolStripMenuItem";
-            this.phòngToolStripMenuItem.Size = new System.Drawing.Size(163, 28);
-            this.phòngToolStripMenuItem.Text = "Phòng";
+            this.phòngToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+            this.phòngToolStripMenuItem.Text = "Hợp đồng";
             this.phòngToolStripMenuItem.Click += new System.EventHandler(this.phòngToolStripMenuItem_Click);
             // 
             // hóaĐơnToolStripMenuItem
             // 
             this.hóaĐơnToolStripMenuItem.Name = "hóaĐơnToolStripMenuItem";
-            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(163, 28);
+            this.hóaĐơnToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.hóaĐơnToolStripMenuItem.Text = "Hóa đơn";
             // 
             // panel1

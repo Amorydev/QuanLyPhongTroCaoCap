@@ -19,7 +19,7 @@ namespace DAL
         private void Connected()
         {
 
-            string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+            string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QuanLyPhongTroCaoCap;Integrated Security=True;Encrypt=False";
 
             try
             {
@@ -82,19 +82,7 @@ namespace DAL
             return false;
         
 
-            /* public bool RunQuery(string strquery, params SqlParameter[] parameters)
-            {
-                using (var cmd = new SqlCommand(strquery, sqlconn))
-                {
-                    cmd.Parameters.AddRange(parameters);
-                    sqlconn.Open();
-                    int check = cmd.ExecuteNonQuery();
-                    sqlconn.Close();
-                    return check > 0;
-                }
-
-            }
-            */
+         
         }
             public bool CheckField(string TableName, string FieldName, string value)
             {

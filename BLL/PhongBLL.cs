@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Windows.Forms;
 using System;
+using System.Collections.Generic;
 
 namespace BLL
 {
@@ -16,83 +17,61 @@ namespace BLL
             string strquery = "SELECT * FROM Phong";
             return dataProvider.GetDataTable(strquery);
         }
+        
 
         public void AddPhong(PhongDTO phongDTO)
         {
-            string sqlquery = @"INSERT INTO Phong (MaPhong, TenPhong, LoaiPhong, GiaPhong, NoiThat, MaTang, TrangThai)
-                                VALUES (@MaPhong, @TenPhong, @LoaiPhong, @GiaPhong, @NoiThat, @MaTang, @TrangThai)";
+            string sqlquery = $@"INSERT INTO Phong (MaPhong, TenPhong, LoaiPhong, GiaPhong, NoiThat, MaTang, TrangThai)
+                                VALUES ('{phongDTO.MaPhong}', N'{phongDTO.TenPhong}', N'{phongDTO.LoaiPhong}', {phongDTO.GiaPhong}, N'{phongDTO.NoiThat}', '{phongDTO.MaTang}', N'{phongDTO.TrangThai}')";
 
-            var parameters = new[]
-            {
-                new SqlParameter("@MaPhong", phongDTO.MaPhong),
-                new SqlParameter("@TenPhong", phongDTO.TenPhong),
-                new SqlParameter("@LoaiPhong", phongDTO.LoaiPhong),
-                new SqlParameter("@GiaPhong", phongDTO.GiaPhong),
-                new SqlParameter("@NoiThat", phongDTO.NoiThat),
-                new SqlParameter("@MaTang", phongDTO.MaTang),
-                new SqlParameter("@TrangThai", phongDTO.TrangThai)
-            };
-
-          /*  if (dataProvider.RunQuery(sqlquery, parameters))
+            if (dataProvider.RunQuery(sqlquery))
             {
                 MessageBox.Show("Thêm thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi thêm phòng", "Thông báo lỗi");
-            }*/
+            }
         }
 
-        public void UpdatePhong(PhongDTO pb)
+        public void UpdatePhong(PhongDTO phongDTO)
         {
-            string strquery = @"UPDATE Phong SET 
-                                TenPhong = @TenPhong, 
-                                TrangThai = @TrangThai, 
-                                LoaiPhong = @LoaiPhong, 
-                                GiaPhong = @GiaPhong, 
-                                NoiThat = @NoiThat, 
-                                MaTang = @MaTang 
+            string sqlquery = $@"UPDATE Phong SET 
+                                TenPhong = N'{phongDTO.TenPhong}', 
+                                LoaiPhong = N'{phongDTO.LoaiPhong}', 
+                                GiaPhong = {phongDTO.GiaPhong}, 
+                                NoiThat = N'{phongDTO.NoiThat}', 
+                                MaTang = '{phongDTO.MaTang}', 
+                                TrangThai = N'{phongDTO.TrangThai}' 
                                 WHERE 
-                                MaPhong = @MaPhong";
+                                MaPhong = '{phongDTO.MaPhong}'";
 
-            var parameters = new[]
-            {
-                new SqlParameter("@TenPhong", pb.TenPhong),
-                new SqlParameter("@TrangThai", pb.TrangThai),
-                new SqlParameter("@LoaiPhong", pb.LoaiPhong),
-                new SqlParameter("@GiaPhong", pb.GiaPhong),
-                new SqlParameter("@NoiThat", pb.NoiThat),
-                new SqlParameter("@MaTang", pb.MaTang),
-                new SqlParameter("@MaPhong", pb.MaPhong)
-            };
-
-           /* if (dataProvider.RunQuery(strquery, parameters))
+            if (dataProvider.RunQuery(sqlquery))
             {
                 MessageBox.Show("Cập nhật thành công", "Thông báo");
             }
             else
             {
                 MessageBox.Show("Lỗi khi cập nhật phòng", "Thông báo lỗi");
-            }*/
+            }
         }
 
-        public void DeletePhongban(PhongDTO pb)
+        public void DeletePhong(PhongDTO phongDTO)
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa phòng này không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
-                string strquery = "DELETE FROM Phong WHERE MaPhong = @MaPhong";
-                var parameter = new SqlParameter("@MaPhong", pb.MaPhong);
+                string sqlquery = $"DELETE FROM Phong WHERE MaPhong = '{phongDTO.MaPhong}'";
 
-               /* if (dataProvider.RunQuery(strquery, parameter))
+                if (dataProvider.RunQuery(sqlquery))
                 {
                     MessageBox.Show("Xóa phòng thành công", "Thông báo");
                 }
                 else
                 {
                     MessageBox.Show("Lỗi khi xóa phòng", "Thông báo lỗi");
-                }*/
+                }
             }
         }
 

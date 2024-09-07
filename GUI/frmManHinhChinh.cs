@@ -59,17 +59,18 @@ namespace GUI
             }
         }
 
-        private void phòngToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmPhong frmPhong = new frmPhong();
-            frmPhong.Show();
-            this.Close();
-        }
-
         private void quảnLýPhòngToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            this.Close();
             frmPhong frmPhong = new frmPhong();
-            frmPhong.Show();
+            frmPhong.ShowDialog();
+            
+        }
+
+        private void phòngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmHopDong frmHopDong = new frmHopDong();
+            frmHopDong.ShowDialog();
             this.Close();
         }
     }
