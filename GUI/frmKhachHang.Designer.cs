@@ -31,6 +31,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnLuuKH = new System.Windows.Forms.Button();
             this.btnXoaKH = new System.Windows.Forms.Button();
@@ -53,7 +54,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dgvKH = new System.Windows.Forms.DataGridView();
-            this.dtpNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -73,7 +73,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(462, 38);
+            this.label1.Location = new System.Drawing.Point(490, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(340, 31);
             this.label1.TabIndex = 0;
@@ -108,6 +108,13 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin";
+            // 
+            // dtpNgaySinh
+            // 
+            this.dtpNgaySinh.Location = new System.Drawing.Point(144, 177);
+            this.dtpNgaySinh.Name = "dtpNgaySinh";
+            this.dtpNgaySinh.Size = new System.Drawing.Size(297, 26);
+            this.dtpNgaySinh.TabIndex = 21;
             // 
             // btnThoat
             // 
@@ -151,12 +158,13 @@
             // 
             // btnThemKH
             // 
+            this.btnThemKH.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThemKH.Location = new System.Drawing.Point(30, 407);
             this.btnThemKH.Name = "btnThemKH";
-            this.btnThemKH.Size = new System.Drawing.Size(83, 35);
+            this.btnThemKH.Size = new System.Drawing.Size(87, 35);
             this.btnThemKH.TabIndex = 16;
             this.btnThemKH.Text = "Thêm";
-            this.btnThemKH.UseVisualStyleBackColor = true;
+            this.btnThemKH.UseVisualStyleBackColor = false;
             this.btnThemKH.Click += new System.EventHandler(this.btnThemKH_Click);
             // 
             // txtNgheNghiep
@@ -298,13 +306,6 @@
             this.dgvKH.Size = new System.Drawing.Size(844, 577);
             this.dgvKH.TabIndex = 0;
             this.dgvKH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKH_CellContentClick);
-            // 
-            // dtpNgaySinh
-            // 
-            this.dtpNgaySinh.Location = new System.Drawing.Point(144, 177);
-            this.dtpNgaySinh.Name = "dtpNgaySinh";
-            this.dtpNgaySinh.Size = new System.Drawing.Size(297, 26);
-            this.dtpNgaySinh.TabIndex = 21;
             // 
             // frmKhachHang
             // 

@@ -19,7 +19,7 @@ namespace DAL
         private void Connected()
         {
 
-            string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
+            string strconn = "Data Source=THUAN\\THUAN;Initial Catalog=QLPhongTroCaoCap;Integrated Security=True;Encrypt=False";
 
             try
             {
