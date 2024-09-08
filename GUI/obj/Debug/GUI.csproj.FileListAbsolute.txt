@@ -59,3 +59,4 @@ C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DTO.pdb
 C:\Users\amory\QuanLyPhongTroCaoCap\GUI\bin\Debug\DAL.pdb
 C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.csproj.Up2Date
 C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmHopDong.resources
+C:\Users\amory\QuanLyPhongTroCaoCap\GUI\obj\Debug\GUI.frmHoaDon.resources

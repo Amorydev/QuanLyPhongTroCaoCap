@@ -14,7 +14,7 @@ namespace DTO
         public float? GiaPhong { get; set; }
         public float? TienDatCoc { get; set; }
         public DateTime? NgayThue { get; set; }
-        public DateTime NgayTraPhong { get; set; }
+        public DateTime? NgayTraPhong { get; set; }
 
        
         public HopDongDTO(string maHopDong, string maKhachHang, string maPhong, float? giaPhong, float? tienDatCoc, DateTime? ngayThue, DateTime ngayTraPhong)

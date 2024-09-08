@@ -46,9 +46,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtGiaPhong = new System.Windows.Forms.TextBox();
             this.txtTenPhong = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.nUDGiaPhong = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.cbMaPhong = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -69,7 +69,6 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDGiaPhong)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHopDong)).BeginInit();
@@ -175,7 +174,7 @@
             this.groupBox1.Size = new System.Drawing.Size(392, 207);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Thông tin hợp đồng";
+            this.groupBox1.Text = "Thông tin thuê phòng ";
             // 
             // dtNgayTraPhong
             // 
@@ -247,9 +246,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(8, 47);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 20);
+            this.label2.Size = new System.Drawing.Size(124, 20);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Mã hợp đồng:";
+            this.label2.Text = "Mã thuê phòng:";
             // 
             // panel1
             // 
@@ -266,9 +265,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(412, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(406, 54);
+            this.label1.Size = new System.Drawing.Size(447, 54);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Quản lý hợp đồng";
+            this.label1.Text = "Quản lý thuê phòng";
             // 
             // pictureBox1
             // 
@@ -282,9 +281,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.txtGiaPhong);
             this.groupBox2.Controls.Add(this.txtTenPhong);
             this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.nUDGiaPhong);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.cbMaPhong);
             this.groupBox2.Controls.Add(this.label4);
@@ -295,6 +294,13 @@
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chọn phòng";
+            // 
+            // txtGiaPhong
+            // 
+            this.txtGiaPhong.Location = new System.Drawing.Point(153, 101);
+            this.txtGiaPhong.Name = "txtGiaPhong";
+            this.txtGiaPhong.Size = new System.Drawing.Size(213, 27);
+            this.txtGiaPhong.TabIndex = 23;
             // 
             // txtTenPhong
             // 
@@ -312,13 +318,6 @@
             this.label12.Size = new System.Drawing.Size(92, 20);
             this.label12.TabIndex = 21;
             this.label12.Text = "Tên phòng:";
-            // 
-            // nUDGiaPhong
-            // 
-            this.nUDGiaPhong.Location = new System.Drawing.Point(153, 97);
-            this.nUDGiaPhong.Name = "nUDGiaPhong";
-            this.nUDGiaPhong.Size = new System.Drawing.Size(213, 27);
-            this.nUDGiaPhong.TabIndex = 16;
             // 
             // label5
             // 
@@ -474,7 +473,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Name = "frmHopDong";
-            this.Text = "Quản lý hợp đồng";
+            this.Text = "Quản lý thuê phòng";
             this.Load += new System.EventHandler(this.frmHopDong_Load);
             this.panel3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
@@ -485,7 +484,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nUDGiaPhong)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -514,7 +512,6 @@
         private System.Windows.Forms.TextBox txtMaHopDong;
         private System.Windows.Forms.DateTimePicker dtNgayTraPhong;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.NumericUpDown nUDGiaPhong;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cbMaPhong;
         private System.Windows.Forms.Label label4;
@@ -531,5 +528,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dgvHopDong;
+        private System.Windows.Forms.TextBox txtGiaPhong;
     }
 }

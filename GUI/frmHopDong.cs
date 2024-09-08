@@ -25,7 +25,6 @@ namespace GUI
             dgvHopDong.DataSource = hopDongBLL.GetDataHopDong();
             layDuLieuKhachHang();
             layDuLieuPhong();
-            nUDGiaPhong.Maximum = 1000000000;
             nUDTienDatCoc.Maximum = 1000000000;
         }
 
@@ -65,7 +64,6 @@ namespace GUI
             isAdd = true;
             txtMaHopDong.Clear();
             nUDTienDatCoc.Value = 0;
-            nUDGiaPhong.Value = 0;
             dtNgayThue.Value = DateTime.Now;
             dtNgayTraPhong.Value = DateTime.Now;
             btnXoa.Enabled = false;
@@ -75,7 +73,15 @@ namespace GUI
             hopDongDTO.MaHopDong = txtMaHopDong.Text;
             hopDongDTO.MaKhachHang = cbMaKhachHang.SelectedValue.ToString();
             hopDongDTO.MaPhong = cbMaPhong.SelectedValue.ToString();
-            hopDongDTO.GiaPhong = (float)nUDGiaPhong.Value;
+            if (float.TryParse(txtGiaPhong.Text, out float giaPhong))
+            {
+                hopDongDTO.GiaPhong = giaPhong;
+            }
+            else
+            {
+                MessageBox.Show("Giá phòng không hợp lệ, vui lòng nhập lại.");
+                return; 
+            }
             hopDongDTO.TienDatCoc = (float)nUDTienDatCoc.Value;
             hopDongDTO.NgayThue = dtNgayThue.Value;
             hopDongDTO.NgayTraPhong = dtNgayTraPhong.Value;
@@ -121,8 +127,11 @@ namespace GUI
                 {
                     DataRow row = rows[0];
                     string tenPhong = row["TenPhong"].ToString();
+                    string giaPhong = row["GiaPhong"].ToString();
                     txtTenPhong.Text = tenPhong;
                     txtTenPhong.Enabled = false;
+                    txtGiaPhong.Text = giaPhong;
+                    txtGiaPhong.Enabled = false;
 
                 }
             }
@@ -159,8 +168,8 @@ namespace GUI
             txtMaHopDong.DataBindings.Add("Text", dgvHopDong.DataSource, "MaHopDong");
             nUDTienDatCoc.DataBindings.Clear();
             nUDTienDatCoc.DataBindings.Add("Text", dgvHopDong.DataSource, "TienDatCoc");
-            nUDGiaPhong.DataBindings.Clear();
-            nUDGiaPhong.DataBindings.Add("Text", dgvHopDong.DataSource, "GiaPhong");
+            txtGiaPhong.DataBindings.Clear();
+            txtGiaPhong.DataBindings.Add("Text", dgvHopDong.DataSource, "GiaPhong");
             cbMaKhachHang.DataBindings.Clear();
             cbMaKhachHang.DataBindings.Add("Text", dgvHopDong.DataSource, "MaKhachHang");
             cbMaPhong.DataBindings.Clear();

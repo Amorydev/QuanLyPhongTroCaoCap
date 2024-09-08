@@ -22,11 +22,16 @@ namespace BLL
 
         public void addHopDong(HopDongDTO hopDongDTO)
         {
-            string formattedNgayThue = hopDongDTO.NgayThue.HasValue ? hopDongDTO.NgayThue.Value.ToString("dd/MM/yyyy") : string.Empty;
-            string formattedNgayTraPhong = hopDongDTO.NgayTraPhong.ToString("dd/MM/yyyy");
+            string formattedNgayThue = hopDongDTO.NgayThue.HasValue ? hopDongDTO.NgayThue.Value.ToString("yyyy-MM-dd") : "NULL";
+            string formattedNgayTraPhong = hopDongDTO.NgayTraPhong.HasValue ? hopDongDTO.NgayTraPhong.Value.ToString("yyyy-MM-dd") : "NULL";
 
-            string query = $@"INSERT INTO HopDongThuePhong (MaHopDong, MaKhachHang, MaPhong, GiaPhong, TienDatCoc, NgayThue, NgayTraPhong) VALUES 
-                              ('{hopDongDTO.MaHopDong}', '{hopDongDTO.MaKhachHang}', '{hopDongDTO.MaPhong}',  {hopDongDTO.GiaPhong}, {hopDongDTO.TienDatCoc}, '{formattedNgayThue}', '{formattedNgayTraPhong}')";
+            string formattedGiaPhong = hopDongDTO.GiaPhong.HasValue ? hopDongDTO.GiaPhong.Value.ToString().Replace(",", ".") : "NULL";
+            string formattedTienDatCoc = hopDongDTO.TienDatCoc.HasValue ? hopDongDTO.TienDatCoc.Value.ToString().Replace(",", ".") : "NULL";
+
+            string query = $@"INSERT INTO HopDongThuePhong (MaHopDong, MaKhachHang, MaPhong, GiaPhong, TienDatCoc, NgayThue, NgayTraPhong) 
+                      VALUES ('{hopDongDTO.MaHopDong}', '{hopDongDTO.MaKhachHang}', '{hopDongDTO.MaPhong}', {formattedGiaPhong}, {formattedTienDatCoc}, 
+                      {(formattedNgayThue != "NULL" ? $"'{formattedNgayThue}'" : "NULL")}, 
+                      {(formattedNgayTraPhong != "NULL" ? $"'{formattedNgayTraPhong}'" : "NULL")})";
 
             if (dataProvider.RunQuery(query))
             {
@@ -34,7 +39,7 @@ namespace BLL
             }
             else
             {
-                MessageBox.Show("Lỗi khi thêm phòng", "Thông báo lỗi");
+                MessageBox.Show("Lỗi khi thêm hợp đồng", "Thông báo lỗi");
             }
         }
 
