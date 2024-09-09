@@ -4,7 +4,8 @@
     "\\DAL",
     "\\DAL\\obj",
     "\\DAL\\obj\\Debug",
-    "\\GUI"
+    "\\GUI",
+    "\\DAL\\obj\\Release"
   ],
   "SelectedNode": "\\QuanLyPhongTro.sln",
   "PreviewInSolutionExplorer": false

@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Windows.Forms;
 using System;
+using System.Collections.Generic;
 
 namespace BLL
 {
@@ -16,6 +17,7 @@ namespace BLL
             string strquery = "SELECT * FROM Phong";
             return dp.GetDataTable(strquery);
         }
+        
 
         public DataTable GetDataPhongTheoTang(string maTang)
         {
@@ -25,6 +27,7 @@ namespace BLL
         }
         public void AddPhong(PhongDTO phongDTO)
         {
+
             string sqlquery = $"INSERT INTO Phong VALUES ('{phongDTO.MaPhong}', N'{phongDTO.TenPhong}', N'{phongDTO.TrangThai}', N'{phongDTO.LoaiPhong}', '{phongDTO.GiaPhong}', N'{phongDTO.NoiThat}', '{phongDTO.MaTang}')";
             if (dp.RunQuery(sqlquery))
             {
@@ -34,13 +37,14 @@ namespace BLL
             {
                 MessageBox.Show("Lỗi khi thêm phòng", "Thông báo lỗi");
             }
-
         }
 
-        public void UpdatePhong(PhongDTO pb)
+        public void UpdatePhong(PhongDTO phongDTO)
         {
+
             string strquery = $"UPDATE Phong SET TenPhong = N'{pb.TenPhong}', TrangThai = N'{pb.TrangThai}', LoaiPhong = N'{pb.LoaiPhong}', GiaPhong = '{pb.GiaPhong}', NoiThat = N'{pb.NoiThat}', MaTang = '{pb.MaTang}' WHERE MaPhong = '{pb.MaPhong}'";
             if (dp.RunQuery(strquery))
+
             {
                 MessageBox.Show("Cập nhật thành công", "Thông báo");
             }
@@ -48,15 +52,15 @@ namespace BLL
             {
                 MessageBox.Show("Lỗi khi cập nhật phòng", "Thông báo lỗi");
             }
-
         }
 
-        public void DeletePhongban(PhongDTO pb)
+        public void DeletePhong(PhongDTO phongDTO)
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa phòng này không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
+
                 string strquery = $"DELETE FROM Phong WHERE MaPhong = '{pb.MaPhong}'";
                if (dp.RunQuery(strquery)) 
                {
@@ -66,6 +70,7 @@ namespace BLL
                 {
                      MessageBox.Show("Lỗi khi xóa phòng", "Thông báo lỗi");
                }
+
             }
         }
 

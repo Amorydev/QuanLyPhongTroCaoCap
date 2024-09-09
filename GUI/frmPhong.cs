@@ -148,7 +148,7 @@ namespace GUI
             layDuLieuPhong();
             if (MessageBox.Show("Bạn có muốn xóa không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
-                phongBLL.DeletePhongban(phongDTO);
+                phongBLL.DeletePhong(phongDTO);
                 frmPhong_Load(sender, e); 
             }
         }
