@@ -75,7 +75,7 @@ namespace GUI
         private void layDuLieuTang()
         {
             TangBLL tangBLL = new TangBLL();
-            List<TangDTO> tangList = tangBLL.GetMaTang();
+            List<TangDTO> tangList = tangBLL.GetDataTang();
 
             cbMaTang.DisplayMember = "TenTang";
             cbMaTang.ValueMember = "MaTang";

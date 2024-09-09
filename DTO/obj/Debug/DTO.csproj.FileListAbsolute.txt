@@ -4,11 +4,15 @@ C:\workspace\C#\QuanLyPhongTro\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 C:\workspace\C#\QuanLyPhongTro\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\workspace\C#\QuanLyPhongTro\DTO\obj\Debug\DTO.dll
 C:\workspace\C#\QuanLyPhongTro\DTO\obj\Debug\DTO.pdb
-
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\bin\Debug\DTO.dll
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\bin\Debug\DTO.pdb
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.dll
 C:\Users\amory\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.pdb
-
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\bin\Debug\DTO.dll
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\bin\Debug\DTO.pdb
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.dll
+D:\Source Code Visual Studio\source\repos\DA mon CSharp\QuanLyPhongTroCaoCap\DTO\obj\Debug\DTO.pdb

@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\DAL",
+    "\\DAL\\obj",
+    "\\DAL\\obj\\Debug",
     "\\GUI"
   ],
-  "SelectedNode": "\\DAL\\DataProvider.cs",
+  "SelectedNode": "\\QuanLyPhongTro.sln",
   "PreviewInSolutionExplorer": false
 }
