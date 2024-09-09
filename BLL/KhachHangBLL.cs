@@ -14,17 +14,6 @@ namespace BLL
     {
         DataProvider dp = new DataProvider();
 
-        //public List<KhachHangDTO> GetKhachHang()
-        //{
-        //    string strquery = "SELECT * FROM KhachHang";
-        //    List<KhachHangDTO> list = new List<KhachHangDTO>();
-        //    foreach (DataRow dr in dp.GetDataTable(strquery).Rows)
-        //    {
-        //        list.Add(new KhachHangDTO(dr["MaKhachHang"].ToString(), dr["HoTen"].ToString(), dr["CCCD"].ToString(), Convert.ToDateTime(dr["NgaySinh"]), dr["GioiTinh"].ToString(), dr["DienThoai"].ToString(), dr["QueQuan"].ToString(), dr["NgheNghiep"].ToString()));
-        //    }
-        //    return list;
-        //}
-
         public DataTable GetDataKhachHang()
         {
             string strquery = "SELECT * FROM KhachHang";
