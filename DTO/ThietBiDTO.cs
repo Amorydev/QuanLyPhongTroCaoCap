@@ -17,5 +17,21 @@ namespace DTO
         public float TienMua { get; set; }
         public float TienBaoDuong { get; set; }
         public string MaTang { get; set; }
+
+        public ThietBiDTO()
+        {
+        }
+        public ThietBiDTO(string maThietBi, string tenThietBi, int soLuong, DateTime ngayMua, DateTime ngayBaoDuong, string trangThai, float tienMua, float tienBaoDuong, string maTang)
+        {
+            this.MaThietBi = maThietBi;
+            this.TenThietBi = tenThietBi;
+            this.SoLuong = soLuong;
+            this.NgayMua = ngayMua;
+            this.NgayBaoDuong = ngayBaoDuong;
+            this.TrangThai = trangThai;
+            this.TienMua = tienMua;
+            this.TienBaoDuong = tienBaoDuong;
+            this.MaTang = maTang;
+        }
     }
 }

@@ -23,8 +23,10 @@ namespace GUI
         private void frmPhong_Load(object sender, EventArgs e)
         {
             pictureBox1.Paint += pictureBox1_Paint;
-            dgvPhong.DataSource = phongBLL.GetDataPhong();
+            
             layDuLieuTang();
+            dgvPhong.SelectionChanged += new EventHandler(dgvPhong_SelectionChanged);
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -73,12 +75,14 @@ namespace GUI
         private void layDuLieuTang()
         {
             TangBLL tangBLL = new TangBLL();
-            List<TangDTO> tangList = tangBLL.layMaTang();
+            List<TangDTO> tangList = tangBLL.GetMaTang();
 
             cbMaTang.DisplayMember = "TenTang";
             cbMaTang.ValueMember = "MaTang";
 
             cbMaTang.DataSource = tangList;
+
+            
         }
 
         private void btnThem_Click(object sender, EventArgs e)
@@ -92,7 +96,7 @@ namespace GUI
             txtMaPhong.Focus();
             btnXoa.Enabled = false;
             btnSua.Enabled = false;
-            btnThem.Enabled = false;
+            
             isAddPhong = true;
         }
 
@@ -106,9 +110,9 @@ namespace GUI
                 {
                     phongBLL.AddPhong(phongDTO);
                     isAddPhong = false;
-                    btnSua.Enabled = false;
-                    btnXoa.Enabled = false;
-                    btnThem.Enabled = true;
+                    btnSua.Enabled = true;
+                    btnXoa.Enabled = true;
+                    
                 }
             }
             else
@@ -116,9 +120,10 @@ namespace GUI
                 if (!string.IsNullOrEmpty(phongDTO.MaPhong))
                 {
                     phongBLL.UpdatePhong(phongDTO);
-                    btnSua.Enabled = true;
+                    
                     btnXoa.Enabled = true;
                     btnThem.Enabled = true;
+                    txtMaPhong.Enabled = true;
                 }
                 else
                 {
@@ -150,70 +155,57 @@ namespace GUI
 
         private void dgvPhong_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) 
-            {
-                DataGridViewRow row = dgvPhong.Rows[e.RowIndex];
-                string maPhong = row.Cells["MaPhong"].Value.ToString();
-
-                phongDTO = phongBLL.GetPhongByMaPhong(maPhong); 
-                txtMaPhong.Text = phongDTO.MaPhong;
-                txtTenPhong.Text = phongDTO.TenPhong;
-                txtLoaiPhong.Text = phongDTO.LoaiPhong;
-                txtGiaPhong.Text = phongDTO.GiaPhong.ToString();
-                txtNoiThat.Text = phongDTO.NoiThat;
-                cbMaTang.SelectedValue = phongDTO.MaTang;
-                if (phongDTO.TrangThai == "Đã cho thuê")
-                {
-                    rbDaChoThue.Checked = true;
-                }
-                else
-                {
-                    rbConTrong.Checked = true;
-                }
-
-                // Switch to Edit mode
-                isAddPhong = false;
-                btnSua.Enabled = true;
-                btnXoa.Enabled = true;
-                btnThem.Enabled = false;
-            }
+            
         }
 
         private void dgvPhong_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) 
-            {
-                DataGridViewRow row = dgvPhong.Rows[e.RowIndex];
-
-                string maPhong = row.Cells["MaPhong"].Value.ToString();
-                phongDTO = phongBLL.GetPhongByMaPhong(maPhong); 
-                txtMaPhong.Text = phongDTO.MaPhong;
-                txtTenPhong.Text = phongDTO.TenPhong;
-                txtLoaiPhong.Text = phongDTO.LoaiPhong;
-                txtGiaPhong.Text = phongDTO.GiaPhong.ToString();
-                txtNoiThat.Text = phongDTO.NoiThat;
-                cbMaTang.SelectedValue = phongDTO.MaTang;
-                if (phongDTO.TrangThai == "Đã cho thuê")
-                {
-                    rbDaChoThue.Checked = true;
-                }
-                else
-                {
-                    rbConTrong.Checked = true;
-                }
-
-                isAddPhong = false;
-                btnSua.Enabled = true;
-                btnXoa.Enabled = true;
-                btnThem.Enabled = false;
-            }
         }
 
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
-            this.Close();
-            frmManHinhChinh frmManHinhChinh = new frmManHinhChinh();
-            frmManHinhChinh.ShowDialog();
+            if (MessageBox.Show("Bạn có muốn quay lại trang chủ không?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+                frmManHinhChinh frmManHinhChinh = new frmManHinhChinh();
+                frmManHinhChinh.ShowDialog();
+            }
+        }
+
+        private void cbMaTang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbMaTang.SelectedValue != null)
+            {
+                dgvPhong.DataSource = phongBLL.GetDataPhongByTang(cbMaTang.SelectedValue.ToString());
+
+                // Thiết lập lại DataBindings
+                txtMaPhong.DataBindings.Clear();
+                txtMaPhong.DataBindings.Add("Text", dgvPhong.DataSource, "MaPhong");
+                txtTenPhong.DataBindings.Clear();
+                txtTenPhong.DataBindings.Add("Text", dgvPhong.DataSource, "TenPhong");
+                txtLoaiPhong.DataBindings.Clear();
+                txtLoaiPhong.DataBindings.Add("Text", dgvPhong.DataSource, "LoaiPhong");
+                txtGiaPhong.DataBindings.Clear();
+                txtGiaPhong.DataBindings.Add("Text", dgvPhong.DataSource, "GiaPhong");
+                txtNoiThat.DataBindings.Clear();
+                txtNoiThat.DataBindings.Add("Text", dgvPhong.DataSource, "NoiThat");
+
+                // Gọi phương thức để cập nhật trạng thái RadioButton cho dòng đầu tiên
+                dgvPhong_SelectionChanged(sender, e);
+
+            }
+        }
+
+        private void dgvPhong_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dgvPhong.CurrentRow != null && dgvPhong.CurrentRow.Cells["TrangThai"].Value != null)
+            {
+                string trangThai = dgvPhong.CurrentRow.Cells["TrangThai"].Value.ToString();
+
+                // Cập nhật trạng thái các RadioButton dựa trên giá trị của "TrangThai"
+                rbDaChoThue.Checked = trangThai == "Đã cho thuê";
+                rbConTrong.Checked = trangThai == "Còn trống";
+            }
         }
     }
 }

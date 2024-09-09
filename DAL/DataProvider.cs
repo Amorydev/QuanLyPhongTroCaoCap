@@ -18,9 +18,7 @@ namespace DAL
         // XD ham ket noi du lieu
         private void Connected()
         {
-
             string strconn = "Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QuanLyPhongTroCaoCap;Integrated Security=True;Encrypt=False";
-
             try
             {
                 if (sqlconn == null)
