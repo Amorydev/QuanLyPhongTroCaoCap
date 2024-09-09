@@ -39,7 +39,7 @@ namespace BLL
             }
         }
 
-        public void UpdatePhong(PhongDTO phongDTO)
+        public void UpdatePhong(PhongDTO pb)
         {
 
             string strquery = $"UPDATE Phong SET TenPhong = N'{pb.TenPhong}', TrangThai = N'{pb.TrangThai}', LoaiPhong = N'{pb.LoaiPhong}', GiaPhong = '{pb.GiaPhong}', NoiThat = N'{pb.NoiThat}', MaTang = '{pb.MaTang}' WHERE MaPhong = '{pb.MaPhong}'";
@@ -54,7 +54,7 @@ namespace BLL
             }
         }
 
-        public void DeletePhong(PhongDTO phongDTO)
+        public void DeletePhong(PhongDTO pb)
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa phòng này không?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 

@@ -33,5 +33,16 @@ namespace GUI.Properties {
                 return ((string)(this["QLPhongTroCaoCapConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-2M3CSSN\\MSSQLSERVER02;Initial Catalog=QuanLyPhongTroCaoCap;In" +
+            "tegrated Security=True;Encrypt=False")]
+        public string QuanLyPhongTroCaoCapConnectionString {
+            get {
+                return ((string)(this["QuanLyPhongTroCaoCapConnectionString"]));
+            }
+        }
     }
 }
