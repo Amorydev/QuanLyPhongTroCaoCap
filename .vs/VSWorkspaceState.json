@@ -3,9 +3,13 @@
     "",
     "\\DAL",
     "\\DAL\\obj",
-    "\\DAL\\obj\\Debug",
+    "\\DAL\\obj\\Release",
     "\\GUI",
-    "\\DAL\\obj\\Release"
+    "\\GUI\\obj",
+    "\\GUI\\obj\\Debug",
+    "\\GUI\\obj\\Release",
+    "\\GUI\\Properties",
+    "\\GUI\\Resources"
   ],
   "SelectedNode": "\\QuanLyPhongTro.sln",
   "PreviewInSolutionExplorer": false

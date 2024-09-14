@@ -64,11 +64,9 @@ namespace GUI
             {
                 hoaDonDTO.TienDichVu = giaPhong;
             }
-            string tongtienphong = txtTongTien.Text.Replace(".", "");
-            if (float.TryParse(tongtienphong, out float tongtien))
-            {
-                hoaDonDTO.TongTien = tongtien;
-            }
+
+            hoaDonDTO.TongTien = tinhTien();
+            
         }
 
         private void dtTuNgay_ValueChanged(object sender, EventArgs e)
@@ -111,30 +109,35 @@ namespace GUI
 
         private void btnTinhTien_Click(object sender, EventArgs e)
         {
-            float tiendien = 0, tiennuoc = 0, tiendichvu = 0, tienphong = 0;
-            CultureInfo culture = CultureInfo.CurrentCulture;
-
-            string tiendienText = txtTienDien.Text.Replace(" ", "");
-            string tiennuocText = txtTienNuoc.Text.Replace(" ", "");
-            string tiendichvuText = txtTienDichVu.Text.Replace(" ", "");
-            string tienphongText = txtTienPhong.Text.Replace(".", "");
-
-            bool validTienDien = !string.IsNullOrWhiteSpace(tiendienText) && float.TryParse(tiendienText, NumberStyles.Float, culture, out tiendien);
-            bool validTienNuoc = !string.IsNullOrWhiteSpace(tiennuocText) && float.TryParse(tiennuocText, NumberStyles.Float, culture, out tiennuoc);
-            bool validTienDichVu = !string.IsNullOrWhiteSpace(tiendichvuText) && float.TryParse(tiendichvuText, NumberStyles.Float, culture, out tiendichvu);
-            bool validTienPhong = !string.IsNullOrWhiteSpace(tienphongText) && float.TryParse(tienphongText, NumberStyles.Float, culture, out tienphong);
-
-            if (validTienDien && validTienNuoc && validTienDichVu && validTienPhong)
-            {
-                float tongtien = tiendien + tiennuoc + tiendichvu + tienphong;
-                txtTongTien.Text = tongtien.ToString("N0", culture);
-            }
-            else
-            {
-                txtTongTien.Text = "Invalid input";
-                MessageBox.Show("Please enter valid numbers for all fields.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            txtTongTien.Text = tinhTien().ToString();
         }
+        private float tinhTien()
+{
+    float tiendien = 0, tiennuoc = 0, tiendichvu = 0, tienphong = 0;
+    CultureInfo culture = CultureInfo.CurrentCulture;
+
+    string tiendienText = txtTienDien.Text.Replace(" ", "").Replace(".", "");
+    string tiennuocText = txtTienNuoc.Text.Replace(" ", "").Replace(".", "");
+    string tiendichvuText = txtTienDichVu.Text.Replace(" ", "").Replace(".", "");
+    string tienphongText = txtTienPhong.Text.Replace(".", "");
+
+    bool validTienDien = !string.IsNullOrWhiteSpace(tiendienText) && float.TryParse(tiendienText, NumberStyles.Float, culture, out tiendien);
+    bool validTienNuoc = !string.IsNullOrWhiteSpace(tiennuocText) && float.TryParse(tiennuocText, NumberStyles.Float, culture, out tiennuoc);
+    bool validTienDichVu = !string.IsNullOrWhiteSpace(tiendichvuText) && float.TryParse(tiendichvuText, NumberStyles.Float, culture, out tiendichvu);
+    bool validTienPhong = !string.IsNullOrWhiteSpace(tienphongText) && float.TryParse(tienphongText, NumberStyles.Float, culture, out tienphong);
+
+    if (validTienDien && validTienNuoc && validTienDichVu && validTienPhong)
+    {
+        float tongtien = tiendien + tiennuoc + tiendichvu + tienphong;
+        return tongtien;
+    }
+    else
+    {
+        txtTongTien.Text = "Invalid input";
+        MessageBox.Show("Please enter valid numbers for all fields.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        return 0;  
+    }
+}
 
         private void cbMaPhong_SelectedIndexChanged(object sender, EventArgs e)
         {
